@@ -1,9 +1,9 @@
 #开放API系统说明文档
-修订者 : 任孟洋 , 日期 : 2018/4/2
+修订者 : 任孟洋 , 日期 : xx/xx/xx
 
 ##1 概述
 
- >本开放系统主要对第三方服务商提供开发服务
+ >本开放系统主要对第三方服务商提供开放平台服务
  >认证鉴权服务
  >用资源获取服务
  >HTTP协议头认证（Basic MTEwMjA4NDI5NDpha3U4aEN5WEJkOVNxWWtU）
@@ -11,8 +11,8 @@
 
 
 ##2 接入指引
->json : http://auth.zhicloud.dev.com/apis/rest/authService/authorize/json
->xml : http://auth.zhicloud.dev.com/apis/rest/authService/authorize/xml
+>json : http://auth.xx.dev.com/apis/rest/authService/authorize/json
+>xml : http://auth.xx.dev.com/apis/rest/authService/authorize/xml
 
  
 ##3.参数说明 
@@ -55,7 +55,7 @@
 
 |     NAME                |      EXPLAIN      |
 | ----------------------- |:-----------------|
-|  url    |   http://auth.zhicloud.dev.com/apis/rest/authService/authorize/json|
+|  url    |   http://auth.xxx.dev.com/apis/rest/authService/authorize/json|
 |  支持验证方式    |  <a href="https://www.cnblogs.com/xzwblog/p/6834663.html">HTTP协议头</a>  |
 |格式|  JSON|
 |http请求方式 |   GET|
@@ -63,7 +63,7 @@
 
 **请求实例**
 ```PHP
-http://auth.zhicloud.dev.com/apis/rest/authService/authorize/json?access_token=*************
+http://auth.xxxx.dev.com/apis/rest/authService/authorize/json?access_token=*************
 &t_=1422339152058&p_=8519 
 
 ```
@@ -91,7 +91,7 @@ http://auth.zhicloud.dev.com/apis/rest/authService/authorize/json?access_token=*
 
 |     NAME                |      EXPLAIN      |
 | ----------------------- |:-----------------|
-|  url    | http://auth.zhicloud.dev.com/apis/rest/userService/getUserInfo/json|
+|  url    | http://auth.xxxx.dev.com/apis/rest/userService/getUserInfo/json|
 |  支持验证方式    |  <a href="https://www.cnblogs.com/xzwblog/p/6834663.html">HTTP协议头</a>  |
 |格式|  JSON|
 |http请求方式 |   GET|
@@ -99,7 +99,7 @@ http://auth.zhicloud.dev.com/apis/rest/authService/authorize/json?access_token=*
 
 **请求实例**
 ```PHP
-http://auth.zhicloud.dev.com/apis/rest/userService/getUserInfo/json?access_token=*************
+http://auth.xxxx.dev.com/apis/rest/userService/getUserInfo/json?access_token=*************
 &client_id=**********
 &auth_code=**********
 &t_=1422339152058&p_=8519 
@@ -124,7 +124,7 @@ http://auth.zhicloud.dev.com/apis/rest/userService/getUserInfo/json?access_token
         "phone": "13******0170",
         "is_admin": "1",
         "status": null,
-        "avatar": "http://avatar.zhicloud.dev.com/000/00/11/52_avatar_small",
+        "avatar": "http://avatar.xxx.dev.com/000/00/11/52_avatar_small",
         "created": "2017-11-30 10:37:30",
         "nowtime": 1522404566
     },
@@ -137,7 +137,7 @@ http://auth.zhicloud.dev.com/apis/rest/userService/getUserInfo/json?access_token
 
 |     NAME                |      EXPLAIN      |
 | ----------------------- |:-----------------|
-|  url    |http://auth.zhicloud.dev.com/apis/rest/companyService/getCompanyInfo/json|
+|  url    |http://auth.xxx.dev.com/apis/rest/companyService/getCompanyInfo/json|
 |  支持验证方式    |  <a href="https://www.cnblogs.com/xzwblog/p/6834663.html">HTTP协议头</a>  |
 |格式|  JSON|
 |http请求方式 |   GET|
@@ -145,7 +145,7 @@ http://auth.zhicloud.dev.com/apis/rest/userService/getUserInfo/json?access_token
 
 **请求实例**
 ```PHP
-http://auth.zhicloud.dev.com/apis/rest/companyService/getCompanyInfo/json?access_token=*************
+http://auth.xxx.dev.com/apis/rest/companyService/getCompanyInfo/json?access_token=*************
 &client_id=**********
 &auth_code=**********
 &t_=1422339152058&p_=8519 
